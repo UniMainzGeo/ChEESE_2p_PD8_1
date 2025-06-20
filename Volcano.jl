@@ -163,7 +163,7 @@ function generate_setup_file(nx,ny,nz,Generate_topo_files,ParamFile_name,curdir,
 
                 # what will be saved in the output of the simulation
 
-                Output(             out_file_name       = "etna_flank",
+                Output(             out_file_name       = "Volcano",
                                     param_file_name     = ParamFile_name,
                                     write_VTK_setup     = false,
                                     out_dir             = out_dir,
@@ -236,7 +236,7 @@ curdir="/local/home/iskander/projects/CHEESE2/etna_model/setups"
 out_dir = ""
 cd(curdir)
 
-ParamFile_name = "Etna_setup_2.dat"
+ParamFile_name = "Volcano.dat"
 
 Paraview_model_preview  = 1;          # Generate vtr file to preview model after marker generation. Turn off for bigger models
 Generate_topo_files     = 0;          # Generate jld files for topography and velocity model
