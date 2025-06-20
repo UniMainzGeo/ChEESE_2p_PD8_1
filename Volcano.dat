@@ -93,7 +93,7 @@
 # Output options
 #===============================================================================
 
-    out_file_name    =  etna_flank     # output file name
+    out_file_name    =  Volcano     # output file name
     out_dir          =       # output directory
     out_pvd          =  1     # activate writing .pvd file
     out_phase        =  1     # dominant phase
